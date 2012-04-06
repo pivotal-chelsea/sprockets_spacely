@@ -21,5 +21,6 @@ module Sprockets
     end
   end
 
+  require 'sprockets'
   register_engine '.mustache', ::Sprockets::Mustache::Template::Processor
 end
